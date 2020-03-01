@@ -1,0 +1,89 @@
+.cards{
+	display:flex;
+	width: 100%;
+	/*margin: 10%;*/
+}
+.cards .card{
+	width: 100%;
+	height:auto;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+	overflow: hidden;
+	transition: .4s;
+	min-width: 200px !important;
+	cursor: pointer;
+	/*padding-bottom: 10px !important;*/
+}
+.me{
+	    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.found {
+	background: rgba(0,0,0,0.7) !important;
+	color: #fff;
+}
+.found .card-title{
+	color: #ffd900;
+}
+.myname{
+	font-size: .7em;
+}
+.found .card-text{
+	color: #ffd900;
+}
+.found .btn{
+	background: #000;
+	float: right;
+	box-shadow: 0px 0px 4px 0px #ffd900;
+	color: #ffd900;
+	font-family: Lato-Light !important;
+	transition: .7s;
+}
+.found .btn:hover{
+	box-shadow: 0px 0px 7px 0px #ffd900;
+	background: #ffd900 !important;
+	color: #000 !important;
+}
+.lost .btn{
+	background: #ffd900;
+	float: right;
+	box-shadow: 0px 0px 6px 0px #000;
+	color: #000;
+	font-family: Lato-Light !important;
+	transition: .7s;
+}
+.lost .btn:hover{
+	box-shadow: 0px 0px 7px 0px #000;
+	background: #000 !important;
+	color: #ffd900 !important;
+}
+.card:hover{
+	box-shadow: 0px 0px 5px 0px #ffd900;
+}
+@media(max-width: 500px){
+	.cards{
+		display: inline-block;
+	}
+	.card{
+		width: 80% !important;
+		height: fit-content !important;	
+		margin: 10%;
+	}
+}
+.btn-blue{
+	background: rgba(0,0,0,0.8) !important;
+	color: #fff;
+	float: right;
+	transition: .7s;
+}
+.btn-blue:hover{
+	color: #000 !important;
+	background: #ffd700 !important;
+}
+.card-title{
+	font-family: Lato-Italic !important;
+}
+.card-text{
+	font-family: Lato !important;
+	font-size: .9em;
+}
